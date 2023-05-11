@@ -1,0 +1,333 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-family: 'Heebo';
+    letter-spacing: 0.8px;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.main-nav {
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    height: 55px;
+    top: 0;
+    box-shadow: 5px 5px 10px rgba(115, 115, 115, 0.5);
+}
+
+.main-nav,
+.navbar-links {
+    display: flex;
+    justify-content: inline;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1,
+h2,
+.main-container p {
+    margin-left: 130px;
+    display: flex;
+    align-items: center;
+    color: white;
+    width: 27%;
+}
+
+h1 {
+    font-size: 120%;
+    color: black;
+}
+
+h2 {
+    margin-top: 60px;
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 40px;
+}
+
+.main-container button {
+    background-color: blue;
+    border: 0;
+    border-radius: 40px;
+    font-size: 70%;
+    padding: 12px 28px;
+    margin-left: 130px;
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+.main-container p {
+    font-family: 'Heebo Light';
+}
+
+.logo-dot {
+    color: blue;
+    font-size: 230%;
+    padding-bottom: 20px;
+}
+
+.word-logo {
+    font-weight: 400;
+    font-family: 'Heebo Light';
+}
+
+.navbar-links {
+    position: relative;
+    right: 150px;
+}
+
+.navbar-links li {
+    font-size: 70%;
+    margin-left: 10px;
+}
+
+.main-container {
+    margin-top: 55px;
+    padding-top: 55px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    display: block;
+    background-image: url("pics/Hero_Large_Desktop.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-family: 'Heebo Light';
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.dash-symbol {
+    color: lime;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.products-container {
+    display: flex;
+    justify-content: center;
+}
+
+.products-container>*>* {
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    margin-bottom: 10px;
+}
+
+.first-img-div,
+.second-img-div,
+.third-img-div {
+    border: 0.5px solid rgba(128, 128, 128, 0.5);
+    border-radius: 10px;
+    padding: 10px;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.first-img-div {
+    margin-left: 130px;
+}
+
+.second-img-div {
+    margin: 0px 10px;
+}
+
+.third-img-div {
+    margin-right: 130px;
+}
+
+.first-img-div img {
+    width: 55%;
+    margin-bottom: 25px;
+}
+
+.second-img-div img {
+    width: 45%;
+    margin-bottom: 25px;
+}
+
+.third-img-div img {
+    width: 75%;
+    margin-top: 30px;
+}
+
+.span-new {
+    background-color: red;
+    border-radius: 10px;
+    padding: 2px 15px;
+    color: white;
+    font-size: 75%;
+    display: block;
+    margin-left: 250px;
+    max-height: 18px;
+    max-width: 25px;
+}
+
+.under-img-span {
+    font-size: 65%;
+    color: blue;
+}
+
+.products-container>* p {
+    font-size: 85%;
+}
+
+.products-container>* img {
+    display: flex;
+    align-self: center;
+}
+
+.dollar-span {
+    font-weight: 800;
+    font-size: 120%;
+}
+
+.third-img-div .dollar-span {
+    color: red;
+}
+
+.tiny-dollar-span {
+    color: rgba(0, 0, 255, 0.5);
+    text-decoration: line-through;
+    font-size: 12px;
+    display: flex;
+    align-self: center;
+    margin-left: 8px;
+}
+
+.products-container>* {
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    justify-content: center;
+}
+
+.add-btn {
+    font-weight: 700;
+    font-size: 13px;
+    background-color: white;
+    border: 0.3px solid black;
+    border-radius: 20px;
+    width: 50%;
+    padding: 3% 10%;
+}
+
+.third-container {
+    width: 600px;
+    display: block;
+    background-color: rgba(128, 128, 128, 0.13);
+    padding: 30px 60px;
+    border-radius: 5px;
+    margin: 50px 23%;
+}
+
+.third-container>* {
+    display: flex;
+    justify-content: center;
+    margin: 12px;
+    font-weight: 445;
+    font-size: 20px;
+}
+
+.third-container p {
+    font-weight: 450;
+    font-size: 11px;
+}
+
+input {
+    border-radius: 20px;
+    border: 0.5px solid rgba(0, 0, 0, 0.7);
+    border-right: none;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding: 8px 10px;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+input::placeholder {
+    font-size: 10px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.subscribe {
+    border-radius: 20px;
+    border: 0.5px solid black;
+    border-left: none;
+    font-size: 10px;
+    padding: 10px 30px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    background-color: blue;
+    color: white;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(58, 58, 58);
+    padding: 40px 0px;
+}
+
+th,
+td a {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 10px;
+    padding: 5px 30px;
+}
+
+th {
+    font-size: 15px;
+    color: white;
+}
+
+.bottom-div {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(40, 40, 40);
+    padding: 15px 0px;
+}
+
+.bottom-div p {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 10px;
+}
+
+a:hover {
+    color: rgb(64, 64, 251);
+}
+
+button:hover {
+    background-color: white;
+    color: blue;
+    transition: all 0.2s ease-in;
+}
+
+.subscribe:hover {
+    border-left: 0.5px solid black;
+    transition: all 0.2s ease-in;
+}
+
+.products-container>*:hover button {
+    background-color: blue;
+    color: white;
+    transition: all 0.2s ease-in;
+}
